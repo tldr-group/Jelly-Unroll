@@ -1,7 +1,5 @@
 import './App.css';
-import InputBox from './components/inputBox/inputBox';
 import InputContainer from './components/inputBox/inputContainer/inputContainer';
-import OutputBox from './components/outputBox/outputBox';
 import OutputContainer from './components/outputBox/outputContainer/outputContainer';
 
 function App() {
