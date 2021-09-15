@@ -8,7 +8,7 @@ class OutputContainer extends Component {
         <div>
             <div class="container pt-5">
             <div class="row">
-            <div class="col-sm">
+            <div class="col-12">
             <OutputBox name="Battery performance"/>
             </div>
             </div>

@@ -1,23 +1,20 @@
 import './App.css';
 import InputContainer from './components/inputBox/inputContainer/inputContainer';
 import OutputContainer from './components/outputBox/outputContainer/outputContainer';
-
+import TopBar from './components/topBar/topBar'
+import Store from './Store'
 function App() {
   return (
     <div className="App">
-    <div class="container">
-  <div class="row">
-    <div class="col-sm">
+      <Store>
+      <TopBar />
+  <div class="row-1">
     <InputContainer/> 
     </div>
-    <div class="col-sm">
+    <div class="row-2">
     <OutputContainer/> 
     </div>
-    <div class="col-sm">
-    <InputContainer/> 
-    </div>
-  </div>
-</div>
+</Store>
 </div>
   );
 }
